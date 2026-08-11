@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+:root {
+  /* Brand tokens — match the official values in the Website Content
+     Handover docs (Section 6/3), the founder's authoritative brand
+     reference, not the "brightened" experimental palette from the
+     app-side design foundation doc. No dark mode here: this is a
+     marketing page, not the app. */
+  --sage: #5a7a5a;
+  --wine: #7a3045;
+  --gold: #c9952a;
+  --gold-deep: #795919;
+  --lavender: #7a6b9a;
+  --terra: #b94e27;
+  --cream: #faf8f3;
+  --white: #ffffff;
+  --text-dark: #2a2a2a;
+  --text-mid: #4a4a4a;
+  --text-muted: #7a7a7a;
+  --text-muted-aa: #6e6e6e;
+  --line: #e4dfd5;
+
+  --radius-card: 16px;
+  --radius-btn: 14px;
+  --radius-pill: 999px;
+  --shadow-card: 0 2px 10px rgba(42, 42, 42, 0.08);
+  --shadow-soft: 0 1px 3px rgba(42, 42, 42, 0.06);
+
+  /* Font stacks. Fonts themselves are vendored via @fontsource (see
+     app/layout.tsx), which registers @font-face rules under the plain
+     family names "Inter" and "Libre Baskerville" — unlike next/font/google,
+     it does not auto-generate CSS variables, so we define them ourselves
+     here to feed the @theme block below. */
+  --font-inter: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-libre-baskerville: 'Libre Baskerville', Georgia, serif;
+}
+
+@theme inline {
+  --color-sage: var(--sage);
+  --color-wine: var(--wine);
+  --color-gold: var(--gold);
+  --color-gold-deep: var(--gold-deep);
+  --color-lavender: var(--lavender);
+  --color-terra: var(--terra);
+  --color-cream: var(--cream);
+  --color-text-dark: var(--text-dark);
+  --color-text-mid: var(--text-mid);
+  --color-text-muted: var(--text-muted);
+  --color-text-muted-aa: var(--text-muted-aa);
+  --color-line: var(--line);
+
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-libre-baskerville);
+
+  --radius-card: var(--radius-card);
+  --radius-btn: var(--radius-btn);
+  --radius-pill: var(--radius-pill);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--cream);
+  color: var(--text-dark);
+  font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, sans-serif;
+  margin: 0;
+}
