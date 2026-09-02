@@ -61,7 +61,15 @@ export default function WaitlistForm({
             : "rounded-[var(--radius-card)] bg-white/80 border border-sage/30 px-5 py-4 text-sage font-medium"
         }
       >
-        {message}
+        <p>{message}</p>
+        <p className="mt-2 text-sm font-normal">
+          Don&rsquo;t want to wait? An early Android beta is available now
+          {" "}
+          <a href="/beta" className="underline hover:opacity-80">
+            get it here
+          </a>
+          .
+        </p>
       </div>
     );
   }
