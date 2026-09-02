@@ -74,6 +74,26 @@ export default function PrivacyPage() {
           </section>
 
           <section>
+            <h2 className="font-semibold text-text-dark text-[17px]">Beta downloads</h2>
+            <p className="mt-2">
+              If you download the Android beta from our /beta page, we
+              additionally collect your name and WhatsApp number, alongside
+              your email. This is separate from the waitlist above: it lets
+              us tell you when a new beta build is ready and match your
+              download to the WhatsApp group, since the beta doesn&rsquo;t
+              update automatically the way a Play Store app would. Like the
+              waitlist email, this information is stored in our Supabase
+              database, is never sold, rented, or shared with anyone else,
+              and you can ask us to remove it at any time by emailing{" "}
+              <a href="mailto:myhealingcycles@outlook.com" className="underline hover:text-wine">
+                myhealingcycles@outlook.com
+              </a>
+              . It has no connection to the health data you enter inside the
+              app itself, which stays on your device as described above.
+            </p>
+          </section>
+
+          <section>
             <h2 className="font-semibold text-text-dark text-[17px]">Cookies</h2>
             <p className="mt-2">
               This site does not use cookies, advertising trackers, or
