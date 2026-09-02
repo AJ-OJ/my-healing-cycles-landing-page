@@ -29,9 +29,9 @@ export default function About() {
           between. My Healing Cycles exists to be that structured middle
           path: daily, specific, and built around how she actually eats,
           prays, and lives, not a generic wellness plan translated from
-          somewhere else. We&rsquo;re starting with a 90-day protocol for
-          uterine fibroids, built the same way we&rsquo;ll build for
-          whatever comes after it.
+          somewhere else. We&rsquo;re starting with a structured, cycle-adapted
+          protocol for uterine fibroids, built the same way we&rsquo;ll
+          build for whatever comes after it.
         </p>
       </div>
 

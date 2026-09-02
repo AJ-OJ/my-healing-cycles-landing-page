@@ -21,11 +21,11 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: "My Healing Cycles: daily healing protocols, starting with fibroids",
   description:
-    "A private, faith-anchored app for daily healing protocols that pairs your habits with your lab and imaging results. Our first protocol: a 90-day program for uterine fibroids, built around Nigerian food and herbs. Join the waitlist for early access.",
+    "A private, faith-anchored app for daily healing protocols that pairs your habits with your lab and imaging results. Our first protocol: a structured program for uterine fibroids that adapts to your own cycle, built around Nigerian food and herbs. Join the waitlist for early access.",
   openGraph: {
     title: "My Healing Cycles",
     description:
-      "Daily, faith-anchored healing protocols that track your habits and your lab results together, all in one private app. Starting with a 90-day protocol for uterine fibroids, built around Nigerian food and herbs. Join the waitlist.",
+      "Daily, faith-anchored healing protocols that track your habits and your lab results together, all in one private app. Starting with a fibroid protocol that adapts to your own cycle, built around Nigerian food and herbs. Join the waitlist.",
     url: siteUrl,
     siteName: "My Healing Cycles",
     images: [{ url: "/images/logo.png", width: 1080, height: 1080 }],
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     card: "summary",
     title: "My Healing Cycles",
     description:
-      "Daily, faith-anchored healing protocols, starting with a 90-day fibroid protocol. Join the waitlist for early access.",
+      "Daily, faith-anchored healing protocols, starting with a fibroid protocol that adapts to your own cycle. Join the waitlist for early access.",
     images: ["/images/logo.png"],
   },
   icons: {
